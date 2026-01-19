@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Simple personal website hosted on GitHub Pages" />
+  <title>Your Name — Home</title>
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Your Name</a>
+
+      <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav id="site-nav" class="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1>Hi — I’m Your Name.</h1>
+        <p class="lead">I build things for the web. This is a simple GitHub Pages starter you can edit and deploy in minutes.</p>
+        <p>
+          <a class="button" href="#projects">See projects</a>
+          <a class="button ghost" href="#contact">Get in touch</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>Short paragraph about you. Replace this with a few sentences describing what you do, what you’re learning, or what you enjoy working on.</p>
+
+        <div class="two-col">
+          <div>
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Frameworks: React / Vue / Svelte (optional)</li>
+              <li>Design, prototyping, accessibility</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Interests</h3>
+            <ul>
+              <li>Open source</li>
+              <li>Performance & accessibility</li>
+              <li>Learning new tools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Project One</h3>
+            <p>Short description of project one. Link to GitHub or live demo.</p>
+            <p><a href="#" class="link">View on GitHub →</a></p>
+          </article>
+
+          <article class="card">
+            <h3>Project Two</h3>
+            <p>Short description of project two — what it does and why it’s cool.</p>
+            <p><a href="#" class="link">View on GitHub →</a></p>
+          </article>
+
+          <article class="card">
+            <h3>Project Three</h3>
+            <p>Short description of project three. Replace with your own content easily.</p>
+            <p><a href="#" class="link">View on GitHub →</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you want to reach out, email me at <a href="mailto:you@example.com">you@example.com</a> or use the links below.</p>
+
+        <p class="social">
+          <a href="#" class="link">GitHub</a> ·
+          <a href="#" class="link">Twitter</a> ·
+          <a href="#" class="link">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name — Hosted with ♥ on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
